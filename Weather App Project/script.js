@@ -4,7 +4,7 @@ const locationButton = document.querySelector(".location-btn");
 const currentWeatherDiv = document.querySelector(".current-weather");
 const weatherCardsDiv = document.querySelector(".weather-cards");
 
-//const API_KEY = "55a57d9c65fdf91b299bb3533264ce8b"; // API key for OpenWeatherMap API
+const API_KEY = "55a57d9c65fdf91b299bb3533264ce8b"; // API key for OpenWeatherMap API
 
 const createWeatherCard = (cityName, weatherItem, index) => {
   if (index === 0) {
